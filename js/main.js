@@ -11,10 +11,9 @@ $( function() {
 	$.vegas('slideshow', {
 	  delay:4000, //optional.  The default is 5000 milliseconds
        backgrounds:[
-		{ src:'images/sliders/slider_1.jpg', fade:1000 },
-		{ src:'images/sliders/slider_2.jpg', fade:1000 },
-		{ src:'images/sliders/slider_3.jpg', fade:1000 },
-		{ src:'images/sliders/slider_4.jpg', fade:1000 }
+		{ src:'brand/online-reservation.jpg', fade:1000 },
+		{ src:'brand/travel-sites.jpg', fade:1000 },
+		{ src:'brand/cloud-computers.jpg', fade:1000 }
 	  ]
 	})('overlay', {
 	  src:'http://vegas.jaysalvat.com/js/vegas/overlays/11.png'
