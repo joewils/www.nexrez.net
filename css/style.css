@@ -142,7 +142,7 @@ hr {
 }
 #home .text span {
 	font-size: 24px;
-	color: #88c136;
+	color: #fff;
 	font-weight: 100;
 	letter-spacing: 18px;
 	text-transform: uppercase;
@@ -160,7 +160,7 @@ hr {
 	color: #fff;
 }
 #home .text h1 span{
-	color:#212121 !important;
+	color:#88c136 !important;
 	font-size: 60px;
 	margin: 0px;
 	font-weight: bolder;
@@ -172,7 +172,7 @@ hr {
 	border-radius:50%;
 }
 #home  .owl-page.active{
-	background:#212121 !important;
+	background:#88c136 !important;
 }
 #home  .owl-controls .owl-page, .owl-controls .owl-buttons div{ 
 	border-radius:50%;
