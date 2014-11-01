@@ -160,7 +160,7 @@ hr {
 	color: #fff;
 }
 #home .text h1 span{
-	color:#88c136 !important;
+	color:#2CF206 !important;
 	font-size: 60px;
 	margin: 0px;
 	font-weight: bolder;
@@ -172,7 +172,7 @@ hr {
 	border-radius:50%;
 }
 #home  .owl-page.active{
-	background:#88c136 !important;
+	background:#2CF206 !important;
 }
 #home  .owl-controls .owl-page, .owl-controls .owl-buttons div{ 
 	border-radius:50%;
