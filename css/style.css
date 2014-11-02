@@ -79,6 +79,12 @@ h6 {
 h6 span {
 	font-weight: bold;
 }
+
+blockquote {
+	font-size: 18px;
+	color: #fff;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
@@ -474,6 +480,7 @@ section::before, section::after {
 	border-radius: 4px;
 	margin-top: 40px;
 	border: 1px solid #fff;
+	min-height: 490px;
 }
 #services .services h5 {
 	font-weight: normal;
