@@ -26,6 +26,7 @@ Website: 		http://ideathemes.com/themes/html/Defrag/
 	margin: 0px;
 	padding: 0px;
 }
+
 body {
 	background: #FFF;
 	height: 100%;
@@ -289,7 +290,11 @@ header .social_icons ul {
 	transition: 0.8s ease-in-out;
 }
 .big-logo{
-	margin-top:6%;
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:142px;
+	height:124px;
 }
 /*=======================================================
 			MAIN ICON
@@ -1125,10 +1130,10 @@ section::before, section::after {
 	height: 50%;
 }
 /*=======================================================
-			CONATCT
+			CONTACT
 ========================================================*/
 #contact {
-	background: url(../images/contact-bg.png) no-repeat;
+	background: url(../brand/contact-bg.png) no-repeat;
 	position: relative;
 	z-index: 9;
 	background-size: cover;
@@ -1769,4 +1774,90 @@ section::before, section::after {
     transform: rotate(450deg);
   }
 }
+
+
+.c {
+	color: #000;
+	text-align: center !important;
+}
+
+/*=======================================================
+			ADMIN FORM
+========================================================*/
+#admin-form label, input[name="submit"] {
+	position: relative;
+}
+#admin-form label > span, input, textarea, button {
+	box-sizing: border-box;
+}
+#admin-form label {
+	font-weight: normal;
+	width: 100%;
+	color: #696969;
+	display: inline-block;
+	width: 100%;
+}
+#admin-form label > span {
+	display: none;
+}
+#admin-form input, textarea, button {
+	width: 100%;
+	border: none;
+}
+#admin-form input  {
+	margin: 0;
+	outline: none;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 5px;
+	border: 2px solid #ee6959 !important;
+	margin-bottom: 10px;
+}
+#admin-form input.invalid, textarea.invalid {
+	border-color: #d5144d;
+}
+#admin-form textarea {
+	height: 10em;
+	width: 96.4%;
+	resize: none;
+	padding: 0 10px;
+	border: 2px solid #ee6959 !important;
+	margin: 0 20px;
+}
+#admin-form input[type="submit"] {
+	background: #ee6959;
+	color: #fff;
+	font-size: 13px;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-transform: uppercase;
+	height: 47px;
+	font-weight: bold;
+	line-height: 47px;
+	margin-left: 25%;
+	margin: 0 auto;
+	border-radius: 4px;
+	display: inline-block;
+}
+#admin-form button {
+	background: #2e2e2e;
+	color: #fff;
+	font-size: 13px;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-transform: uppercase;
+	height: 47px;
+	font-weight: bold;
+	line-height: 47px;
+	margin-left: 25%;
+	float: left;
+}
+#admin-form input[type="submit"]:hover, button:hover {
+	background: #df5c4c;
+}
+
 
