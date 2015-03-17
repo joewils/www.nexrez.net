@@ -1860,4 +1860,22 @@ section::before, section::after {
 	background: #df5c4c;
 }
 
+/*=======================================================
+			tripadvisor
+========================================================*/
+
+#tripadvisor {
+	background: #34495e;
+	z-index: 9;
+	padding: 200px 0;
+	padding-top: 0px;
+}
+
+#tripadvisor h3 {
+	color: #2fe90c;
+}
+.tripadvisor {
+	margin-top: 80px;
+}
+
 
